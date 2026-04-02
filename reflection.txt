@@ -1,0 +1,7 @@
+﻿I created this presentation on my own, and presented to a group of roughly 20 Cybersecurity Group officers and club members at one of our weekly meetings. The presentations goes over a history of the Android OS, before explaining Android Debug Bridge and its different modes of operations (wired, wireless through pairing). I go over the different historical versions of ADB and various security issues that they faced, as well as a history of specific attacks that utilized ADB throughout the lifespan of Android. 
+
+
+I concluded the meeting with a simple demo showing how someone could conduct an "evil maid attack" by accessing an unlocked phone and establishing a paired wireless connection. I showed how, once this connection is established, an attacker could exfiltrate data or record the user's actions without them knowing. I demonstrated this through secretly recording the device's pin, then executing ADB commands to turn on and unlock the phone remotely. 
+
+
+I believe that while this presentation is a good beginner overview, it could have gone into more depth about usages of ADB. The demo I showed was basic and somewhat contrived, not being something that an attacker would realistically do. I've now been made aware of more sophisticated attacks and exploits that can be enabled with ADB. I may make a more advanced followup to this meeting next year.
